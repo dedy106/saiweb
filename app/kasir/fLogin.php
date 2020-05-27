@@ -1,6 +1,6 @@
 <?php
-    $root="http://".$_SERVER['SERVER_NAME'];
-    $root_ser="http://".$_SERVER['SERVER_NAME']."/server";
+    $root="https://".$_SERVER['SERVER_NAME'];
+    $root_ser="https://".$_SERVER['SERVER_NAME']."/server";
     $folder_css=$root."/vendor/asset_elite/dist/css";
     $folder_js=$root."/vendor/asset_elite/dist/js";
     $folder_assets=$root."/vendor/asset_elite";
