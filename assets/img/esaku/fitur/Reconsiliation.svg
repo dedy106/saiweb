@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="310" height="102" viewBox="0 0 310 102">
+  <g id="Reconsiliation" transform="translate(-695.5 -96.5)">
+    <g id="success" transform="translate(843 123)">
+      <path id="Path_9" data-name="Path 9" d="M7.5,0A7.5,7.5,0,1,0,15,7.5,7.508,7.508,0,0,0,7.5,0Zm4.181,5L7.066,10.191a.577.577,0,0,1-.792.067L3.389,7.951a.577.577,0,0,1,.721-.9L6.567,9.015l4.252-4.783A.577.577,0,0,1,11.681,5Z" fill="#007aff"/>
+    </g>
+    <g id="success-2" data-name="success" transform="translate(843 144)">
+      <path id="Path_9-2" data-name="Path 9" d="M7.5,0A7.5,7.5,0,1,0,15,7.5,7.508,7.508,0,0,0,7.5,0Zm4.181,5L7.066,10.191a.577.577,0,0,1-.792.067L3.389,7.951a.577.577,0,0,1,.721-.9L6.567,9.015l4.252-4.783A.577.577,0,0,1,11.681,5Z" fill="#007aff"/>
+    </g>
+    <g id="success-3" data-name="success" transform="translate(843 165)">
+      <path id="Path_9-3" data-name="Path 9" d="M7.5,0A7.5,7.5,0,1,0,15,7.5,7.508,7.508,0,0,0,7.5,0Zm4.181,5L7.066,10.191a.577.577,0,0,1-.792.067L3.389,7.951a.577.577,0,0,1,.721-.9L6.567,9.015l4.252-4.783A.577.577,0,0,1,11.681,5Z" fill="#007aff"/>
+    </g>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="19" height="4" rx="2" transform="translate(821 128)" fill="#007aff"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="19" height="4" rx="2" transform="translate(821 149)" fill="#007aff"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="19" height="4" rx="2" transform="translate(820 170)" fill="#007aff"/>
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="19" height="4" rx="2" transform="translate(862 128)" fill="#007aff"/>
+    <rect id="Rectangle_16" data-name="Rectangle 16" width="19" height="4" rx="2" transform="translate(862 149)" fill="#007aff"/>
+    <rect id="Rectangle_17" data-name="Rectangle 17" width="19" height="4" rx="2" transform="translate(861 170)" fill="#007aff"/>
+    <g id="Recon">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="109" height="97" rx="10" transform="translate(698 99)" fill="#fff" stroke="#000" stroke-width="5"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="5" cy="5" r="5" transform="translate(706 125)"/>
+      <circle id="Ellipse_3-2" data-name="Ellipse 3" cx="5" cy="5" r="5" transform="translate(706 146)"/>
+      <circle id="Ellipse_3-3" data-name="Ellipse 3" cx="5" cy="5" r="5" transform="translate(706 167)"/>
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="72" height="10" rx="5" transform="translate(722 125)"/>
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="72" height="10" rx="5" transform="translate(722 146)"/>
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="72" height="10" rx="5" transform="translate(722 167)"/>
+      <text id="SAKU" transform="translate(706 116)" font-size="12" font-family="SFProText-Regular, SF Pro Text"><tspan x="0" y="0">SAKU</tspan></text>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(196)">
+      <rect id="Rectangle_7-2" data-name="Rectangle 7" width="109" height="97" rx="10" transform="translate(698 99)" fill="#fff" stroke="#000" stroke-width="5"/>
+      <circle id="Ellipse_3-4" data-name="Ellipse 3" cx="5" cy="5" r="5" transform="translate(706 125)"/>
+      <circle id="Ellipse_3-5" data-name="Ellipse 3" cx="5" cy="5" r="5" transform="translate(706 146)"/>
+      <circle id="Ellipse_3-6" data-name="Ellipse 3" cx="5" cy="5" r="5" transform="translate(706 167)"/>
+      <rect id="Rectangle_9-2" data-name="Rectangle 9" width="72" height="10" rx="5" transform="translate(722 125)"/>
+      <rect id="Rectangle_10-2" data-name="Rectangle 10" width="72" height="10" rx="5" transform="translate(722 146)"/>
+      <rect id="Rectangle_11-2" data-name="Rectangle 11" width="72" height="10" rx="5" transform="translate(722 167)"/>
+      <text id="Data_Recon." data-name="Data Recon." transform="translate(706 116)" font-size="12" font-family="SFProText-Regular, SF Pro Text"><tspan x="0" y="0">Data Recon.</tspan></text>
+    </g>
+  </g>
+</svg>

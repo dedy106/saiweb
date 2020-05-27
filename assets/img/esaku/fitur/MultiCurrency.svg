@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="159" height="104.159" viewBox="0 0 159 104.159">
+  <g id="MultiCurrency" transform="translate(-433 -91.706)">
+    <g id="Group_1" data-name="Group 1" transform="translate(-7)">
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(440 95)" fill="#fff" stroke="#000" stroke-width="5">
+        <circle cx="30" cy="30" r="30" stroke="none"/>
+        <circle cx="30" cy="30" r="27.5" fill="none"/>
+      </g>
+      <text id="Rp" transform="translate(457.2 131.615)" font-size="20" font-family="SFProText-Regular, SF Pro Text"><tspan x="0" y="0">Rp</tspan></text>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(-8)">
+      <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(540 133)" fill="#fff" stroke="#000" stroke-width="5">
+        <circle cx="30" cy="30" r="30" stroke="none"/>
+        <circle cx="30" cy="30" r="27.5" fill="none"/>
+      </g>
+      <text id="_" data-name="$" transform="translate(563.135 170)" font-size="20" font-family="SFProText-Regular, SF Pro Text"><tspan x="0" y="0">$</tspan></text>
+    </g>
+    <path id="Path_5" data-name="Path 5" d="M26.084,251.829a3.012,3.012,0,0,0-2.561,3.4l.844,6.025-2.14-2.139a24.1,24.1,0,0,1,0-34.074A3.013,3.013,0,0,0,17.98,220.8a30.128,30.128,0,0,0,0,42.6l2.139,2.139-6.025-.874a3.044,3.044,0,1,0-.874,6.025l15.064,2.139h.422a3.03,3.03,0,0,0,3.013-3.435l-2.139-15.064a3.012,3.012,0,0,0-3.5-2.5Zm0,0" transform="translate(276.253 63.2) rotate(-59)" fill="#007aff"/>
+    <path id="Path_7" data-name="Path 7" d="M16.925,31.756a3.012,3.012,0,0,0-2.561,3.4l.844,6.025-2.14-2.139a24.1,24.1,0,0,1,0-34.074A3.013,3.013,0,0,0,8.821.724a30.128,30.128,0,0,0,0,42.6l2.139,2.139L4.934,44.59a3.044,3.044,0,1,0-.874,6.025l15.064,2.139h.422a3.03,3.03,0,0,0,3.013-3.435L20.42,34.256a3.012,3.012,0,0,0-3.5-2.5Zm0,0" transform="matrix(-0.602, 0.799, -0.799, -0.602, 548.898, 123.454)" fill="#007aff"/>
+  </g>
+</svg>

@@ -1,0 +1,150 @@
+/* Section Fitur */
+
+li{
+				margin-top: 15px;
+			}
+
+			li a{
+				color: black;
+			}
+
+			li a:hover{
+				color: grey;
+			}
+
+			.link-zoom{
+				transform: scale(1);
+				transition: .5s;
+			}
+			.link-zoom:hover{
+				transform: scale(1.05);
+				transition: .5s;
+			}
+
+			.content-zoom:hover{
+				transform: scale(1.125);
+				transition: transform .5s;
+			}
+			.content-zoom{
+				transform: scale(1);
+				transition: transform .5s;
+			}
+
+			.img-zoom:hover{
+				transform: scale(1.5);
+				transition: transform .5s;
+			}
+			.img-zoom{
+				transform: scale(1);
+				transition: transform .5s;
+			}
+
+				.mynav{
+				margin-left: 30px;
+				color:#4285f4 ;
+				/*padding-left: 10px !important;*/
+			}
+			.mynav:hover{
+				/*box-shadow: 0px 0px 0px 2.5px rgba(0, 0, 0, .1);*/
+				color:#4285f4 ;
+				border-bottom: 3px solid #b4c8eb;
+				/*transform: scale(1.1);*/
+				/*transition: .25s;*/
+				/*text-decoration: underline;*/
+				/*border-radius: 5px;*/
+			}
+
+
+			.active-scroll:hover{
+				transform: scale(1.1);
+				transition: .5s;
+				/*border-bottom: 3px solid #b4c8eb;*/
+				
+			}
+
+
+
+			.content-right{
+				text-align: right;;
+			}
+
+			.content-center{
+				text-align: center;
+			}
+
+			.mynav-scroll{
+				/*margin-left: 30px;*/
+				color:#4285f4 ;
+				/*padding-left: 10px !important;	*/
+			}
+			.mynav-scroll:hover{
+				color:#4285f4 ;
+				/*border-bottom: 3px solid #b4c8eb;*/
+				/*text-decoration: underline;*/
+				transform: scale(1.1);
+				transition: .25s;
+
+			}
+
+			.mypad{
+				margin-left: 30px;
+				background-color: white;
+				color:#EA4335 !important;
+				padding: .5rem;
+			}
+			.mypad:hover{
+				box-shadow: 0px 0px 0px 2.5px rgba(0, 0, 0, .1);
+			}
+			.navbar{
+			  transition:500ms ease;
+			  background:transparent;
+			}
+			.navbar.scrolled{
+			  background-color :rgba(234, 234, 236,1);
+			  color: white !important;
+			}
+			.btn-saku{
+				border-radius: 14px; 
+				width: 125px; 
+				background-color:#4285f4 !important; 
+				color:white;
+				margin-top: 15px;
+			}
+			.btn-saku:hover{
+				color: lightgrey;
+			}
+
+.fitur-header-title{
+				color: #5084da;
+			}
+
+			#fitur{
+				margin-bottom: 6rem;
+			}
+
+			.fitur-easeUp{
+				margin-top: 4rem;
+				/* opacity: 0; */
+				transition: .5s;
+				/* transform: translate(0, 40px); */
+			}
+
+			.fitur-easeUp.show{
+				opacity: 1;
+				transition: .5s;
+				transform: translate(0,0);
+			}
+
+			.saku-fitur-title{
+				margin-top: 10px;
+			}
+
+			.saku-fitur-img{
+				margin-top: 10px;
+			}
+
+			.saku-fitur-subtitle{
+				margin-top: 10px;
+			}
+
+			/* End of Section Fitur */

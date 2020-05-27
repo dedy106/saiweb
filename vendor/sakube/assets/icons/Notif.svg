@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.705" height="43.707" viewBox="0 0 43.705 43.707">
+  <g id="Notif" transform="translate(0 4.264)">
+    <path id="Path_6" data-name="Path 6" d="M20.252,53.138A10.98,10.98,0,0,1,21.419,48.2H8.7A8.7,8.7,0,0,0,0,56.9v18.83a8.7,8.7,0,0,0,8.7,8.7h18.83a8.7,8.7,0,0,0,8.7-8.7V63.019a11.044,11.044,0,0,1-15.986-9.881Z" transform="translate(0 -44.995)" fill="#afafaf"/>
+    <circle id="Ada_Pesan" data-name="Ada Pesan" cx="8.704" cy="8.704" r="8.704" transform="translate(18.383 8.75) rotate(-45)" fill="#007aff"/>
+    <circle id="Non_Pesan" data-name="Non Pesan" cx="8.704" cy="8.704" r="8.704" transform="translate(18.383 8.75) rotate(-45)" fill="#007aff" stroke="#007aff" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46.286" height="36.918" viewBox="0 0 46.286 36.918">
+  <g id="Dashboard" transform="translate(-1702 -17)">
+    <path id="Path_12" data-name="Path 12" d="M42.679,39.184H3.607A3.59,3.59,0,0,0,0,42.757V64.789a3.59,3.59,0,0,0,3.607,3.573H42.679a3.59,3.59,0,0,0,3.607-3.573V42.757A3.59,3.59,0,0,0,42.679,39.184Z" transform="translate(1702 -22.184)" fill="#afafaf"/>
+    <line id="Line_6" data-name="Line 6" y2="12" transform="translate(1721.5 25.5)" fill="none" stroke="#007aff" stroke-linecap="round" stroke-width="3"/>
+    <line id="Line_7" data-name="Line 7" y2="9" transform="translate(1726.5 28.5)" fill="none" stroke="#007aff" stroke-linecap="round" stroke-width="3"/>
+    <line id="Line_8" data-name="Line 8" y2="6" transform="translate(1731.5 31.5)" fill="none" stroke="#007aff" stroke-linecap="round" stroke-width="3"/>
+    <path id="Path_13" data-name="Path 13" d="M32.188,0H14.063V-16.7" transform="translate(1702.313 38.5)" fill="none" stroke="#007aff" stroke-linecap="round" stroke-width="1"/>
+    <path id="Path_11" data-name="Path 11" d="M124.311,316.082l-4.148,5.359h19.175l-4.148-5.359Z" transform="translate(1595.663 -267.523)" fill="#afafaf"/>
+  </g>
+</svg>

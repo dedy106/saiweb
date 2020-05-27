@@ -1,0 +1,57 @@
+
+    th,td{
+        padding:8px !important;
+        vertical-align:middle !important;
+    }
+    .form-group{
+        margin-bottom:15px !important;
+    }
+
+    .dataTables_wrapper{
+        padding:5px !important;
+    }
+
+    .sidepanel  {
+        width: 0px;
+        position: fixed;
+        z-index: 1;
+        height: 500px;
+        top: -10px !important;
+        right: 0;
+        background-color:white;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding: 10px;
+        margin-top: 60px;
+        border:1px solid #e9e9e9;
+    }
+
+    .close{
+        width:0px;
+        right: -30px;
+    }
+    .open{
+        width:300px;
+    }
+    #subFixbar{
+        width: calc(100% - 250px);
+    }
+    .mini-sidebar #subFixbar{
+        width: calc(100% - 100px);
+    }
+
+    .dt-buttons .dt-button {
+       
+        background: #f8f9fa !important;
+        border-color: #dee2e6 !important;
+        color: black !important;
+    }
+
+    .dt-buttons{
+        padding-left: 20px !important; 
+        margin-bottom: 0px !important;
+    }
+
+    .dataTables_info{
+        position:absolute !important;
+    }

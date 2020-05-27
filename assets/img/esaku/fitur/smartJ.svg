@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="136.314" height="128.164" viewBox="0 0 136.314 128.164">
+  <g id="smartJ" transform="translate(-684.343 -214)">
+    <g id="tungsten" transform="translate(697 228)">
+      <path id="Path_17" data-name="Path 17" d="M146.97,61.522a17.583,17.583,0,0,0-6.533,13.641V86.726a5.782,5.782,0,0,1-5.782,5.782H115.383a5.781,5.781,0,0,1-5.782-5.782V75.163a17.721,17.721,0,0,0-6.592-13.684A34.671,34.671,0,0,1,121.062.226,36.643,36.643,0,0,1,125.075,0a34.285,34.285,0,0,1,23.071,8.836,34.658,34.658,0,0,1-1.18,52.685Zm-33.514,25.2a1.927,1.927,0,0,0,1.927,1.927h19.272a1.927,1.927,0,0,0,1.927-1.927V77.09H113.456Zm32.123-75.018A30.825,30.825,0,1,0,105.457,58.5a21.618,21.618,0,0,1,7.909,14.74h23.3a21.467,21.467,0,0,1,7.861-14.7,30.8,30.8,0,0,0,1.049-46.832Zm0,0" transform="translate(-68.673 21.656)"/>
+    </g>
+    <rect id="Rectangle_21" data-name="Rectangle 21" width="30" height="4" rx="2" transform="translate(685.841 258.527) rotate(22)" fill="#007aff"/>
+    <rect id="Rectangle_22" data-name="Rectangle 22" width="30" height="4" rx="2" transform="translate(791.343 269.765) rotate(-22)" fill="#007aff"/>
+    <rect id="Rectangle_23" data-name="Rectangle 23" width="30" height="4" rx="2" transform="translate(755 214) rotate(90)" fill="#007aff"/>
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="16" height="4" rx="2" transform="matrix(0.719, 0.695, -0.695, 0.719, 713.67, 239.867)" fill="#007aff"/>
+    <rect id="Rectangle_25" data-name="Rectangle 25" width="16" height="4" rx="2" transform="matrix(0.719, -0.695, 0.695, 0.719, 780.891, 250.981)" fill="#007aff"/>
+  </g>
+</svg>

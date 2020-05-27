@@ -1,0 +1,205 @@
+.ql-editor{
+   min-height: 100px; 
+   /* margin-bottom: 1rem; */
+}
+
+.ql-editor strong{
+   font-weight: bold;
+}
+/* @font-face{
+   font-family: "CustomFont";
+   src: url(https://git.teobit.ru/altera/alteraQwars/blob/fe765448cfbf3b18754e0c5f7fcf6788b8b6db71/source/San%20Francisco%20Pro/Fonts/SF-Pro-Text-Regular.ttf);
+}
+
+body{
+   font-family: "CustomFont" !important;
+} */
+
+
+/*https://blog.polarbits.co/2014/02/16/quick-tips-5-column-layout-with-twitter-bootstrap/*/
+.col-xs-15 {
+   width: 20%;
+   float: left;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+       width: 20%;
+       float: left;
+   }
+}
+
+@media (min-width: 992px) {
+   .col-md-15 {
+       width: 20%;
+       float: left;
+   }
+}
+
+@media (min-width: 1200px) {
+   .col-lg-15 {
+       width: 20%;
+       float: left;
+   }
+}
+
+.ui-selecting {
+   background: #FECA40; 
+}
+
+.ui-selected { 
+   background: #F39814; color: white; 
+}
+
+.sai-container-overflow{
+   overflow-y: auto; 
+   overflow-x: auto; 
+   max-height: 450px; 
+   max-width:99%; 
+   margin-right:10px;
+}
+
+.sai-container-overflow-x{
+   overflow-x: auto; 
+   max-width:99%; 
+   margin-right:10px;
+}
+
+.sai-container-overflow-y{
+   overflow-y: auto; 
+   max-height: 450px; 
+   padding-right:10px;
+}
+
+.sai-btn-circle{
+   background-color: rgb(231, 231, 231);
+   border: 1px solid rgb(180, 180, 180);
+   color: rgb(70, 68, 68);
+   /* padding: 5px; */
+   height:23px;
+   width:23px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   /* font-size: 16px; */
+   margin-right: 3px;
+   border-radius : 50%;
+}
+
+div[class*="sai-banner-"]{
+   padding:0px; 
+   padding-top:5px; 
+   padding-bottom:5px; 
+   margin:0px; 
+   margin-bottom:10px;
+   overflow: auto;
+}
+
+div[class*="sai-banner-"]::after{
+   content:"\a";
+   white-space: pre;
+}
+
+div[class*="sai-banner-"] input, button, a[class*="pull-right"]{
+   margin-right:5px;
+}
+
+.sai-banner-aqua{
+   color: #31708f; 
+   border-color: #bce8f1; 
+   background-color: #d9edf7;
+}
+
+
+.slider-selection {
+   background: #BABABA;
+}
+
+div[class*="sai-hover-"]:hover{
+   cursor: pointer;
+   color: white;
+}
+
+.sai-hover-blue:hover{
+   background: #0055ff;
+}
+
+.sai-hover-red:hover{
+   background: #f7725a;
+}
+
+.sai-hover-purple:hover{
+   background: #9933ff;
+}
+
+.sai-hover-green:hover{
+   background: #33ff77;
+}
+
+ul[class="timeline"] > li, ul[class="timeline"] > li > div[class="timeline-item"]{
+   margin-right: 0px;
+}
+
+ul[class='nav-tabs'] li:not(.active){
+   background-color:#e0e0eb;
+}
+
+.sai-rpt-filter-entry-row{
+   margin : 0px 0px 5px;
+}
+
+.sai-rpt-filter-entry-row:nth-child(2n+1) {
+   background: #ebebeb;
+   padding : 5px 0px 10px;
+}
+
+.col-2dot4,
+.col-sm-2dot4,
+.col-md-2dot4,
+.col-lg-2dot4,
+.col-xl-2dot4 {
+   position: relative;
+   width: 100%;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+}
+.col-2dot4 {
+   -webkit-box-flex: 0;
+   -ms-flex: 0 0 20%;
+   flex: 0 0 20%;
+   max-width: 20%;
+}
+@media (min-width: 540px) {
+   .col-sm-2dot4 {
+       -webkit-box-flex: 0;
+       -ms-flex: 0 0 20%;
+       flex: 0 0 20%;
+       max-width: 20%;
+   }
+}
+@media (min-width: 720px) {
+   .col-md-2dot4 {
+       -webkit-box-flex: 0;
+       -ms-flex: 0 0 20%;
+       flex: 0 0 20%;
+       max-width: 20%;
+   }
+}
+@media (min-width: 960px) {
+   .col-lg-2dot4 {
+       -webkit-box-flex: 0;
+       -ms-flex: 0 0 20%;
+       flex: 0 0 20%;
+       max-width: 20%;
+   }
+}
+@media (min-width: 1140px) {
+   .col-xl-2dot4 {
+       -webkit-box-flex: 0;
+       -ms-flex: 0 0 20%;
+       flex: 0 0 20%;
+       max-width: 20%;
+   }
+}
+

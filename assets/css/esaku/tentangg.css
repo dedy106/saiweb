@@ -1,0 +1,535 @@
+		/* .tentang-header-title{
+		color: #5084da;
+		margin-bottom: 2rem;
+		font-size: 3.5rem;
+		font-weight: 300;
+		line-height: 1.2;
+
+	}	 */
+
+	html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+
+	#judulTentang {
+		color: #5084da;
+		margin-bottom: 2rem;
+		font-size: 3.5rem;
+		font-weight: 300;
+		line-height: 1.2;
+	}
+
+	li{
+		margin-top: 15px;
+	}
+
+	li a,
+	.privasi{
+		color: black;
+	}
+
+	li a:hover,
+	.privasi:hover{
+		color: rgb(66, 134, 245);
+		text-decoration: none;
+	}
+
+	.btn-class{
+		text-align: right;
+	}
+
+	.content-items{
+		margin-bottom: 3rem;
+	}
+
+		.img-zoom:hover{
+				transform: scale(1.5);
+				transition: transform .5s;
+			}
+			.img-zoom{
+				transform: scale(1);
+				transition: transform .5s;
+			}
+
+			.mynav{
+				margin-left: 30px;
+				color:#4286f5 ;
+			}
+			.mynav:hover{
+				color: #0030B3 !important
+			}
+
+			.mynav-scroll{
+				/*margin-left: 30px;*/
+				color:#4285f4 ;
+				/*padding-left: 10px !important;	*/
+			}
+			.mynav-scroll:hover{
+				color:#4285f4 ;
+				/*border-bottom: 3px solid #b4c8eb;*/
+				/*text-decoration: underline;*/
+				transform: scale(1.1);
+				transition: .25s;
+
+			}
+
+			.content-right{
+				text-align: right;;
+			}
+
+			.content-center{
+				text-align: center;
+			}
+
+			.mypad{
+				margin-left: 30px;
+				background-color: #4285f4;
+				color:#FFF !important;
+				padding: .5rem;
+			}
+			.mypad:hover{
+				box-shadow: 0px 0px 0px 2.5px rgba(0, 0, 0, .1);
+			}
+			.navbar{
+				transition:500ms ease;
+				background:transparent;
+			  }
+			  .navbar.scrolled{
+				  background-color :rgba(234, 234, 236,1);
+				  color: white !important;
+				  -webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.1);
+				  box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.1);
+			  }
+	.btn-saku{
+		border-radius: 14px; 
+		width: 125px; 
+		background-color:#4285f4 !important; 
+		color:white;
+		margin-top: 15px;
+	}
+	.btn-saku:hover{
+		color: lightgrey;
+	}
+
+	.btn-tentang{
+		background-color: #4286f5;
+		color: white;
+		font-size: 1.5rem;
+		border-radius: 15px;
+		margin-top: 2rem;
+	}
+	.btn-tentang:hover{
+		color: white;
+	}
+
+	
+
+	footer{
+				margin-top: 5rem;
+				padding-bottom: 0px;
+				margin-bottom: 0px;
+			}
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+	.content-text-left{
+		margin-top: 3rem;
+		font-size: 1.5rem;
+		margin-left: 6.5rem;
+	}
+
+	.content-text-right{
+		font-size: 1.5rem;
+		margin-top: 5rem;
+		margin-right: 1rem;
+	}
+
+	.content-img-left{
+		margin-left: 6.5rem;
+	}  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .content-text-right{
+  	font-size: 1.25rem;
+  	margin-right: 1rem;
+
+  }
+
+  .content-text-left{
+  	margin-top: 3rem;
+  	font-size: 1.25rem;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .content-text-right{
+  	font-size: 1.25rem;
+
+  }
+
+  .content-text-left{
+  	margin-top: 1rem;
+  	font-size: 1.25rem;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+	.content-text-right{
+  	text-align: center;
+  	margin-right: 1rem;
+  }
+
+  .content-text-left{
+  	text-align: center;
+
+  }  
+
+  .btn-class{
+  	text-align: center;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .tentang-header-title{
+  	font-size: 3rem;
+  	margin-left: 1rem;
+  }
+
+  .content-text-right{
+  	text-align: center;
+  	margin-right: 1rem;
+  }
+
+  .content-text-left{
+  	text-align: center;
+
+  }
+
+  .btn-class{
+  	text-align: center;
+  }
+  
+}
+
+#img-footer {
+	margin-left: 15px;
+	width: 150px;
+}
+
+#div-img-footer-bawah {
+	display: none;
+}
+
+#img-footer,
+#img-footer-asli {
+	margin-left: 15px;
+	width: 150px;
+}
+
+#img-footer-al {
+	width: 100px;
+}
+
+#div-img-footer-bawah {
+	display: none;
+}
+
+#imgMobile {
+	display: none;
+}
+
+#imgWeb {
+	display: inline;
+}
+
+#footer-geser {
+	padding-left: 67px;
+}
+
+#crMobile {
+	display: none;
+}
+
+#crWeb {
+	display: inline;
+}
+
+.chat {
+	cursor: pointer;
+	/* position: absolute; */
+	z-index: 1;
+	position: fixed;
+	max-width: 100%;
+	top: 82%;
+	left: 90%;
+	width: 8%;
+	-webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.24));
+	filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.24));
+}
+
+#shareWeb {
+	width: 20px;
+}
+
+#crWeb-margin {
+	margin-top: 100px;
+}
+
+#teksAtas-al{
+	font-size: 65px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+	position: absolute;
+	z-index: 1;
+	max-width: 100%;
+	top: 30%;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#teksTentang-al {
+	text-align: center;
+	font-weight: bold;
+	font-size: 28px;
+	margin-top: 15px;
+	margin-bottom: 100px;
+}
+
+#teksDes-al {
+	font-size: 23px; 
+	padding: 70px 0;
+}
+
+.teksDes-al2 {
+	padding-right: 50px !important;
+}
+
+#gambarCover-al {
+	filter: brightness(50%); 
+	height: 535px; 
+	width: 100%; 
+	object-fit: cover;
+}
+
+#garisBawah-al {
+	margin-top: -50px
+}
+
+#teksU1-al {
+	font-size: 55px;
+}
+
+#teksU2-al {
+	font-size: 43px;
+}
+
+#forMobile-al {
+	display: none;
+}
+
+@media (min-width: 1500px) and (max-width: 1920px) {
+	#gambarCover-al {
+		filter: brightness(50%); 
+		height: 620px; 
+		width: 100%; 
+		object-fit: cover;
+	}	
+}
+
+@media only screen and (max-width: 768px) {
+	#img-footer {
+		margin-left: 15px;
+		width: 100px;
+	}
+
+	#div-img-footer {
+		text-align: center;
+		margin-bottom: 12px;
+	}
+
+	#div-shortcut-footer {
+		display: none;
+	}
+
+	#judulTentang {
+		font-size: 40px;
+	}
+
+	#pemisah {
+		margin-top: 50px;
+	}
+	
+	#descTentang {
+		font-size: 15px;
+		text-align: justify;
+	}
+
+	.btn-tentang {
+		width: 50%;
+		font-size: 15px;
+	}
+	
+	#img-footer-bawah {
+		/* margin-left: 15px; */
+		width: 40px;
+		padding-bottom: 4px;
+	}
+
+	#div-img-footer-bawah {
+		display: inline;
+		/* text-align: center; */
+		/* margin-top: 20px; */
+		font-size: 9px;
+		padding-left: 0;
+	}
+
+	#div-img-footer-asli {
+		display: none;
+	}
+
+	#img-footer-asli {
+		display: none;
+	}
+
+	#gambarCover-al {
+		filter: brightness(50%); 
+		height: 225px; 
+		width: 100%; 
+		object-fit: cover;
+	}
+
+	#teksAtas-al{
+		font-size: 20px;
+		text-align: center;
+		color: #FFF;
+		position: absolute;
+		z-index: 1;
+		max-width: 100%;
+		top: 15%;
+		left: 1%;
+	}
+
+	#garisBawah-al {
+		margin-top: -15px
+	}
+
+	#teksTentang-al {
+		font-size: 18px;
+		margin-bottom: 50px;
+	}
+
+	#teksU1-al {
+		font-size: 28px;
+	}
+
+	#teksU2-al {
+		font-size: 26px;
+	}
+
+	#teksU1-al, 
+	#teksU2-al, 
+	#teksDes-al {
+		text-align: left;
+	}
+
+	#teksDes-al {
+		font-size: 16px; 
+		padding: 0 0;
+	}
+	
+	.teksDes-al2 {
+		padding-right: 0 !important;
+	}
+
+	#forMobile-al {
+		display: inline;
+	}
+
+	#forWeb-al {
+		display: none;
+	}
+
+	#webYa-al {
+		padding-left: 5%;
+	}
+
+	.dd {
+		border-bottom: 1px solid #d1d1d1;
+	}
+
+	#crMobile {
+		display: inline;
+	}
+
+	#crWeb {
+		display: none;
+	}
+
+	#crWeb-margin {
+		margin-top: 0;
+	}
+
+	#shareWeb {
+		width: 15px;
+	}
+
+	#imgWeb {
+		display: none;
+	}
+
+	#imgMobile {
+		display: inline;
+	}
+}

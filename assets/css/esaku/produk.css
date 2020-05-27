@@ -1,0 +1,485 @@
+
+			html, body {
+				max-width: 100%;
+				overflow-x: hidden;
+			}
+
+			/* .produk-header-title{
+				color: #5084da;
+			} */
+
+			#judulProduk {
+				color: #5084da;
+			}
+			
+			li{
+				margin-top: 15px;
+			}
+
+			li a,
+			.privasi{
+				color: black;
+			}
+
+			li a:hover,
+			.privasi:hover{
+				color: rgb(66, 134, 245);
+				text-decoration: none;
+			}
+
+			li a:hover{
+				color: rgb(66, 134, 245);
+				text-decoration: none;
+			}
+
+			header{
+				margin-bottom: 5rem;
+			}
+
+				.img-zoom:hover{
+				transform: scale(1.5);
+				transition: transform .5s;
+			}
+			.img-zoom{
+				transform: scale(1);
+				transition: transform .5s;
+			}
+
+			.mynav{
+				margin-left: 30px;
+				color:#4286f5 ;
+			}
+			.mynav:hover{
+				color: #0030B3;
+			}
+
+			.active-scroll:hover{
+				transform: scale(1.1);
+				transition: .5s;
+				/*border-bottom: 3px solid #b4c8eb;*/
+				
+			}
+			
+			.mynav-scroll{
+				/*margin-left: 30px;*/
+				color:#4285f4 ;
+				/*padding-left: 10px !important;	*/
+			}
+			.mynav-scroll:hover{
+				color:#4285f4 ;
+				/*border-bottom: 3px solid #b4c8eb;*/
+				/*text-decoration: underline;*/
+				transform: scale(1.1);
+				transition: .25s;
+
+			}
+
+			.content-right{
+				text-align: right;;
+			}
+
+			.content-center{
+				text-align: center;
+			}
+
+			.mypad{
+				margin-left: 30px;
+				background-color: #4285f4;
+				color:#FFF !important;
+				padding: .5rem;
+			}
+			.mypad:hover{
+				box-shadow: 0px 0px 0px 2.5px rgba(0, 0, 0, .1);
+			}
+
+			.navbar{
+				transition:500ms ease;
+				background:green;
+			}
+			.navbar.scrolled{
+				background-color :rgba(234, 234, 236,1);
+				color: white !important;
+				-webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.1);
+				box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.1);
+			}
+			
+			.cobaAl{
+				transition:500ms ease !important;
+				/* background-color:rgba(234, 234, 236,1); */
+			}
+
+			.cobaAl.scrolled{
+				background-color :rgba(234, 234, 236,1) !important;
+				color: white !important;
+				-webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.1) !important;
+				box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.1) !important;
+			}
+			
+			.btn-saku{
+				border-radius: 14px; 
+				width: 125px; 
+				background-color:#4285f4 !important; 
+				color:white;
+				margin-top: 15px;
+			}
+			.btn-saku:hover{
+				color: lightgrey;
+			}
+
+			.content-title{
+				font-weight: 800;
+				font-size: 1.25rem;
+			}
+
+			.content-title img{
+				margin-right: 1em;
+			}
+
+			.content-text{
+				margin-left: 4.75em;
+			}
+
+			.content-items{
+				margin-bottom: 3rem;
+			}
+
+			.content-img{
+				padding-bottom: .5rem;
+			}
+
+			footer{
+				margin-top: 15rem;
+				padding-bottom: 0px;
+				margin-bottom: 0px;
+			}
+
+			#img-footer {
+				margin-left: 15px;
+				width: 150px;
+			}
+
+			#gambarModul {
+				width: 50px;
+			}
+
+			#div-img-footer-bawah {
+				display: none;
+			}
+
+			#img-footer,
+			#img-footer-asli {
+				margin-left: 15px;
+				width: 150px;
+			}
+
+			#img-footer-al {
+				width: 100px;
+			}
+
+			#imgWeb {
+				display: inline;
+			}
+
+			#imgMobile {
+				display: none;
+			}
+
+			#footer-geser {
+				padding-left: 67px;
+			}
+
+			#crMobile {
+				display: none;
+			}
+
+			#crWeb {
+				display: inline;
+			}
+
+			.chat {
+				cursor: pointer;
+				/* position: absolute; */
+				z-index: 1;
+				position: fixed;
+				max-width: 100%;
+				top: 82%;
+				left: 90%;
+				width: 8%;
+				-webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.24));
+				filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.24));
+			}
+
+			#shareWeb {
+				width: 20px;
+			}
+
+			#crWeb-margin {
+				margin-top: 100px;
+			}
+
+			#teksProduk-al {
+				text-align: center;
+				font-weight: bold;
+				font-size: 28px;
+				margin-top: 15px;
+				margin-bottom: 70px;
+				padding-left: 220px;
+				padding-right: 220px;
+			}
+
+			#kontenKanan-al {
+				margin-top: 10px;
+				text-align: center;
+				font-size: 20px;
+			}
+
+			#isiKanan-al {
+				height: 160px;
+				font-size: 19px;
+			}
+
+			#row2-al {
+				margin-top: 130px;
+				margin-bottom: 130px;
+			}
+
+			#mudahUntuk-al {
+				font-weight: bold;
+				font-size: 28px;
+			}
+
+			#produkYang-al {
+				font-size: 20px;
+				padding-left: 330px;
+				padding-right: 330px;
+				margin-bottom: 130px;
+			}
+
+			#gambarKiri-al {
+				width: 630px; 
+				margin-left: -200px; 
+				margin-top: -50px;
+			}
+
+			#gambarKonten-al {
+				width: 45%;
+			}
+
+			.rapihin-al {
+				margin-left: 120px;
+				margin-right: 10px;
+			}
+
+			.rapihin2-al {
+				margin-right: 10px;
+			}
+
+			.rapih-al {
+				margin: 0 10px 0 10px;
+			}
+
+			.marginRow-al {
+				margin-top: 20px;
+			}
+			
+			#forMobile-al {
+				display: none;
+			}
+
+			@media (min-width: 1500px) and (max-width: 1920px) {
+				#gambarKiri-al {
+					width: 730px; 
+					margin-left: -300px; 
+					margin-top: -80px;
+				}
+
+				#rowAwal-al {
+					margin-top: 50px;
+				}
+			}
+
+			@media only screen and (max-width: 768px) {
+				#img-footer {
+					margin-left: 15px;
+					width: 100px;
+				}
+			
+				#div-img-footer {
+					text-align: center;
+					margin-bottom: 12px;
+				}
+
+				#gambarModul {
+					width: 35px;
+				}
+
+				#judulProduk,
+				#descProduk {
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+
+				#judulProduk{
+					font-size: 40px;
+				}
+
+				#descProduk {
+					font-size: 15px;
+					margin-top: 15px;
+				}
+
+				.content-text{
+					margin-left: 2px;
+					margin-top: 10px;
+					text-align: justify;
+				}
+				
+				#img-footer-bawah {
+					/* margin-left: 15px; */
+					width: 40px;
+					padding-bottom: 4px;
+				}
+			
+				#div-img-footer-bawah {
+					display: inline;
+					/* text-align: center; */
+					/* margin-top: 20px; */
+					font-size: 9px;
+					padding-left: 0;
+				}
+			
+				#div-shortcut-footer {
+					display: none;
+				}
+			
+				#div-img-footer-asli {
+					display: none;
+				}
+			
+				#img-footer-asli {
+					display: none;
+				}
+			
+				.perusahaan-subtitle {
+					padding-left: 1px;
+					padding-right: 15px;
+					/* text-align: justify; */
+				}
+
+				#descProduk {
+					padding-left: 15px;
+				}
+
+				#teksProduk-al {
+					text-align: center;
+					font-weight: bold;
+					font-size: 18px;
+					margin-top: 15px;
+					margin-bottom: 70px;
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+
+				#gambarKiri-al {
+					width: 380px;
+					margin-left: 7%;
+					margin-top: -50px;
+				}
+
+				#gambarKonten-al {
+					width: 38%;
+				}
+
+				.rapihin-al {
+					margin-left: 0px;
+					margin-right: 0px;
+				}
+				
+				.rapihin2-al {
+					margin-right: 0px;
+				}
+	
+				.rapih-al {
+					margin: 0 0 0 0;
+				}
+
+				#isiKanan-al {
+					max-width: 50%;
+					font-size: 16px;
+					height: 90px;
+					text-align: center;
+					margin: 10px 0 10px 0;
+					padding: 0 20px 0 20px;
+				}
+
+				.kontenMobile-al {
+					margin-top: 10px;
+					text-align: center;
+					font-size: 20px;
+				}
+
+				#row2-al {
+					margin-top: 0px;
+					margin-bottom: 0px;
+				}
+
+				#forMobile-al {
+					display: inline;
+				}
+
+				#forWeb-al {
+					display: none;
+				}
+
+				#mudahUntuk-al {
+					font-size: 18px;
+				}
+
+				#produkYang-al {
+					font-size: 15px;
+					padding-left: 20px;
+					padding-right: 20px;
+					margin-bottom: 130px;
+					text-align: center;
+					margin-top: 10px;
+				}
+
+				#crMobile {
+					display: inline;
+				}
+	
+				#crWeb {
+					display: none;
+				}
+
+				.chat {
+					cursor: pointer;
+					/* position: absolute; */
+					z-index: 1;
+					position: fixed;
+					max-width: 100%;
+					top: 79%;
+					left: 65%;
+					width: 28%;
+				}
+
+				#crWeb-margin {
+					margin-top: 0;
+				}
+
+				#shareWeb {
+					width: 15px;
+				}
+			
+				.dd {
+					border-bottom: 1px solid #d1d1d1;
+				}
+
+				#imgMobile {
+					display: inline;
+				}
+			
+				#imgWeb {
+					display: none;
+				}
+			}

@@ -1,0 +1,256 @@
+		.tentang-header-title{
+		color: #5084da;
+		margin-bottom: 2rem;
+		font-size: 3.5rem;
+		font-weight: 300;
+		line-height: 1.2;
+
+	}	
+
+	li{
+		margin-top: 15px;
+	}
+
+	li a{
+		color: black;
+	}
+
+	li a:hover{
+		color: grey;
+	}
+
+	.btn-class{
+		text-align: right;
+	}
+
+	.content-items{
+		margin-bottom: 3rem;
+	}
+
+		.img-zoom:hover{
+				transform: scale(1.5);
+				transition: transform .5s;
+			}
+			.img-zoom{
+				transform: scale(1);
+				transition: transform .5s;
+			}
+
+			.mynav{
+				margin-left: 30px;
+				color:#4285f4 ;
+				/*padding-left: 10px !important;*/
+			}
+			.mynav:hover{
+				/*box-shadow: 0px 0px 0px 2.5px rgba(0, 0, 0, .1);*/
+				color:#4285f4 ;
+				border-bottom: 3px solid #b4c8eb;
+				/*transform: scale(1.1);*/
+				/*transition: .25s;*/
+				/*text-decoration: underline;*/
+				/*border-radius: 5px;*/
+			}
+
+
+			.active-scroll:hover{
+				transform: scale(1.1);
+				transition: .5s;
+				/*border-bottom: 3px solid #b4c8eb;*/
+				
+			}
+
+			.content-right{
+				text-align: right;;
+			}
+
+			.content-center{
+				text-align: center;
+			}
+
+			.mynav-scroll{
+				/*margin-left: 30px;*/
+				color:#4285f4 ;
+				/*padding-left: 10px !important;	*/
+			}
+			.mynav-scroll:hover{
+				color:#4285f4 ;
+				/*border-bottom: 3px solid #b4c8eb;*/
+				/*text-decoration: underline;*/
+				transform: scale(1.1);
+				transition: .25s;
+
+			}
+
+			.mypad{
+				margin-left: 30px;
+				background-color: white;
+				color:#EA4335 !important;
+				padding: .5rem;
+			}
+			.mypad:hover{
+				box-shadow: 0px 0px 0px 2.5px rgba(0, 0, 0, .1);
+			}
+	.navbar{
+	  transition:500ms ease;
+	  background:transparent;
+	}
+	.navbar.scrolled{
+	  background-color :rgba(234, 234, 236,0.95);
+	  color: white !important;
+	}
+	.btn-saku{
+		border-radius: 14px; 
+		width: 125px; 
+		background-color:#4285f4 !important; 
+		color:white;
+		margin-top: 15px;
+	}
+	.btn-saku:hover{
+		color: lightgrey;
+	}
+
+	.btn-tentang{
+		background-color: #4286f5;
+		color: white;
+		font-size: 1.5rem;
+		border-radius: 15px;
+		margin-top: 2rem;
+	}
+	.btn-tentang:hover{
+		color: white;
+	}
+
+	
+
+	footer{
+				margin-top: 5rem;
+				padding-bottom: 0px;
+				margin-bottom: 0px;
+			}
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+	.content-text-left{
+		margin-top: 3rem;
+		font-size: 1.5rem;
+		margin-left: 6.5rem;
+	}
+
+	.content-text-right{
+		font-size: 1.5rem;
+		margin-top: 5rem;
+		margin-right: 1rem;
+	}
+
+	.content-img-left{
+		margin-left: 6.5rem;
+	}  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .content-text-right{
+  	font-size: 1.25rem;
+  	margin-right: 1rem;
+
+  }
+
+  .content-text-left{
+  	margin-top: 3rem;
+  	font-size: 1.25rem;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .content-text-right{
+  	font-size: 1.25rem;
+
+  }
+
+  .content-text-left{
+  	margin-top: 1rem;
+  	font-size: 1.25rem;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+	.content-text-right{
+  	text-align: center;
+  	margin-right: 1rem;
+  }
+
+  .content-text-left{
+  	text-align: center;
+
+  }  
+
+  .btn-class{
+  	text-align: center;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .tentang-header-title{
+  	font-size: 3rem;
+  	margin-left: 1rem;
+  }
+
+  .content-text-right{
+  	text-align: center;
+  	margin-right: 1rem;
+  }
+
+  .content-text-left{
+  	text-align: center;
+
+  }
+
+  .btn-class{
+  	text-align: center;
+  }
+  
+}

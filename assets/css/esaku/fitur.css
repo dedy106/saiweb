@@ -1,0 +1,322 @@
+/* Section Fitur */
+
+li{
+				margin-top: 15px;
+			}
+
+			li a,
+			.privasi{
+				color: black;
+			}
+
+			li a:hover,
+			.privasi:hover{
+				color: rgb(66, 134, 245);
+				text-decoration: none;
+			}
+
+			.link-zoom{
+				transform: scale(1);
+				transition: .5s;
+			}
+			.link-zoom:hover{
+				transform: scale(1.05);
+				transition: .5s;
+			}
+
+			.content-zoom:hover{
+				transform: scale(1.125);
+				transition: transform .5s;
+			}
+			.content-zoom{
+				transform: scale(1);
+				transition: transform .5s;
+			}
+
+			.img-zoom:hover{
+				transform: scale(1.5);
+				transition: transform .5s;
+			}
+			.img-zoom{
+				transform: scale(1);
+				transition: transform .5s;
+			}
+
+				.mynav{
+				margin-left: 30px;
+				color:#4285f4 ;
+				/*padding-left: 10px !important;*/
+			}
+			.mynav:hover{
+				/*box-shadow: 0px 0px 0px 2.5px rgba(0, 0, 0, .1);*/
+
+				/* color:#4285f4 ;
+				border-bottom: 3px solid #b4c8eb; */
+				color: #0030B3 !important
+
+				/*transform: scale(1.1);*/
+				/*transition: .25s;*/
+				/*text-decoration: underline;*/
+				/*border-radius: 5px;*/
+			}
+
+
+			.active-scroll:hover{
+				transform: scale(1.1);
+				transition: .5s;
+				/*border-bottom: 3px solid #b4c8eb;*/
+				
+			}
+
+
+
+			.content-right{
+				text-align: right;;
+			}
+
+			.content-center{
+				text-align: center;
+			}
+
+			.mynav-scroll{
+				/*margin-left: 30px;*/
+				color:#4285f4 ;
+				/*padding-left: 10px !important;	*/
+			}
+			.mynav-scroll:hover{
+				color:#4285f4 ;
+				/*border-bottom: 3px solid #b4c8eb;*/
+				/*text-decoration: underline;*/
+				transform: scale(1.1);
+				transition: .25s;
+
+			}
+
+			.mypad{
+				margin-left: 30px;
+				background-color: #4285f4;
+				color:#FFF !important;
+				padding: .5rem;
+			}
+			.mypad:hover{
+				box-shadow: 0px 0px 0px 2.5px rgba(0, 0, 0, .1);
+			}
+			.navbar{
+			  transition:500ms ease;
+			  background:transparent;
+			}
+			.navbar.scrolled{
+				background-color :rgba(234, 234, 236,1);
+				color: white !important;
+				-webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.1);
+				box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.1);
+			}
+			.btn-saku{
+				border-radius: 14px; 
+				width: 125px; 
+				background-color:#4285f4 !important; 
+				color:white;
+				margin-top: 15px;
+			}
+			.btn-saku:hover{
+				color: lightgrey;
+			}
+
+			/* .fitur-header-title{
+				color: #5084da;
+			} */
+
+			#judulFitur{
+				color: #5084da;
+			}
+
+			#fitur{
+				margin-bottom: 6rem;
+			}
+
+			.fitur-easeUp{
+				margin-top: 4rem;
+				/* opacity: 0; */
+				transition: .5s;
+				/* transform: translate(0, 40px); */
+			}
+
+			.fitur-easeUp.show{
+				opacity: 1;
+				transition: .5s;
+				transform: translate(0,0);
+			}
+
+			.saku-fitur-title{
+				margin-top: 10px;
+			}
+
+			.saku-fitur-img{
+				margin-top: 10px;
+				/* background: grey; */
+				height: 90px;
+				width: 160px;
+				margin-left: 18%;
+			}
+
+			.saku-fitur-subtitle{
+				margin-top: 10px;
+			}
+
+			/* End of Section Fitur */
+
+			footer{
+				margin-top: 15rem;
+				padding-bottom: 0px;
+				margin-bottom: 0px;
+			}
+
+			#img-footer,
+			#img-footer-asli {
+				margin-left: 15px;
+				width: 150px;
+			}
+
+			#img-footer-al {
+				width: 100px;
+			}
+
+			#imgMobile {
+				display: none;
+			}
+
+			#imgWeb {
+				display: inline;
+			}
+
+			#div-img-footer-bawah {
+				display: none;
+			}
+
+			#crMobile {
+				display: none;
+			}
+		
+			#crWeb {
+				display: inline;
+			}
+
+			#crWeb-margin {
+				margin-top: 100px;
+			}
+
+			#shareWeb {
+				width: 20px;
+			}
+
+			.chat {
+				cursor: pointer;
+				/* position: absolute; */
+				z-index: 1;
+				position: fixed;
+				max-width: 100%;
+				top: 82%;
+				left: 90%;
+				width: 8%;
+				-webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.24));
+				filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.24));
+			}
+			
+			@media only screen and (max-width: 768px) {
+				#img-footer {
+					margin-left: 15px;
+					width: 100px;
+				}
+			
+				#div-img-footer {
+					text-align: center;
+					margin-bottom: 12px;
+				}
+			
+				#div-shortcut-footer {
+					display: none;
+				}
+
+				#judulFitur{
+					font-size: 40px;
+				}
+
+				#img-footer-bawah {
+					/* margin-left: 15px; */
+					width: 40px;
+					padding-bottom: 4px;
+				}
+			
+				#div-img-footer-bawah {
+					display: inline;
+					/* text-align: center; */
+					/* margin-top: 20px; */
+					font-size: 9px;
+					padding-left: 0;
+				}
+			
+				#div-shortcut-footer {
+					display: none;
+				}
+			
+				#div-img-footer-asli {
+					display: none;
+				}
+			
+				#img-footer-asli {
+					display: none;
+				}
+			
+				.perusahaan-subtitle {
+					padding-left: 1px;
+					padding-right: 15px;
+					/* text-align: justify; */
+				}
+
+				#imgMobile {
+					display: inline;
+				}
+			
+				#imgWeb {
+					display: none;
+				}
+
+				#crMobile {
+					display: inline;
+				}
+			
+				#crWeb {
+					display: none;
+				}
+
+				#crWeb-margin {
+					margin-top: 0;
+				}
+
+				#shareWeb {
+					width: 15px;
+				}
+			
+				.dd {
+					border-bottom: 1px solid #d1d1d1;
+				}
+
+				.chat {
+					cursor: pointer;
+					/* position: absolute; */
+					z-index: 1;
+					position: fixed;
+					max-width: 100%;
+					top: 79%;
+					left: 65%;
+					width: 28%;
+				}
+
+				.saku-fitur-img{
+					margin-top: 10px;
+					height: 90px;
+					width: 160px;
+					margin-left: 0%;
+					background: cyan;
+				}
+			}
